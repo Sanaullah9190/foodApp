@@ -1,0 +1,36 @@
+.nav-profile{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdwon{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+.nav-profile:hover .dropdwon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid tomato;
+    outline: 2px solid;
+    list-style: none;
+    
+}
+
+.dropdwon img{
+    width:20px
+}
+.dropdwon li:hover{
+    color: tomato;
+}
+.dropdwon li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}

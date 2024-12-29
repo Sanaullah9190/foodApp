@@ -1,0 +1,4 @@
+.animation{
+    animation: fade 2s;
+    transition: all 1.5s;
+}

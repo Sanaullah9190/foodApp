@@ -1,0 +1,47 @@
+.header{
+    background: url("/header_img.png");
+    background-size: contain;
+    position: relative;
+    height: 38vw;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+}
+
+.contente{
+    animation: fade 3s;
+}
+
+
+
+@media (max-width:1050px) {
+    
+    .header{
+        height: 38vw;
+    }
+    .contente{
+        max-width: 45%;
+        margin-bottom: 2px;
+    }
+} 
+@media (max-width:750px) {
+    .contente{
+        max-width: 55%;
+    }
+    .contente p{
+        display: none;
+    }
+    .contente button{
+        padding: 2vw 4vw;
+    }
+} 
+
+/* @media (min-width:768px) {
+    .header{
+        background: url("/header_img.png");
+        background-size: contain;
+        position: relative;
+        height: 38vw;
+        margin: 30px auto;
+        background-repeat: no-repeat;
+        }
+}  */
